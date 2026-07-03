@@ -40,7 +40,7 @@ The system was designed to answer the following questions:
 - How can model evaluation be presented in an intuitive dashboard for business users?
 - How can forecasting workflows be automated into a single end-to-end application?
 
---- --- ---
+---
 
 # Key Features
 
@@ -55,7 +55,7 @@ The system was designed to answer the following questions:
 - Revenue estimation
 - CSV export of generated recommendations
 
---- --- ---
+---
 
 # Tech Stack
 
@@ -84,7 +84,7 @@ The system was designed to answer the following questions:
 - Git
 - GitHub
 
---- --- ---
+---
 
 # System Architecture
 
@@ -125,7 +125,7 @@ The system was designed to answer the following questions:
                                   ▼
                   CSV Export & Summary Download
 
---- --- ---
+---
 
 # Machine Learning Models
 
@@ -140,7 +140,7 @@ The platform implements four forecasting approaches to enable performance compar
 
 Each forecasting model is evaluated independently, allowing users to compare performance before selecting the most suitable model for the given dataset.
 
---- --- ---
+---
 
 # Model Evaluation
 
@@ -152,7 +152,7 @@ Forecast accuracy is evaluated using three widely adopted regression metrics:
 
 The application compares all supported forecasting models and highlights the model with the lowest RMSE.
 
---- --- ---
+---
 
 # Dashboard Features
 
@@ -180,7 +180,7 @@ Current features include:
 - CSV export of recommendations
 - Downloadable recommendation summary
 
---- --- ---
+---
 
 # Repository Structure
 
@@ -235,7 +235,7 @@ Required columns include:
 
 After the dataset is uploaded through the Streamlit interface, the application automatically performs preprocessing and category-wise aggregation before training the selected forecasting model.
 
---- --- ---
+---
 
 # Outputs
 
@@ -257,7 +257,7 @@ Generated reports are stored under:
 ```text
 exports/
 ```
---- --- ---
+---
 
 # Reproducibility
 
@@ -275,7 +275,7 @@ Level 3 — Full Pipeline
 
 Retrain models and regenerate all outputs (requires compute resources).
 
---- --- ---
+---
 
 # Future Improvements
 
@@ -290,7 +290,7 @@ Retrain models and regenerate all outputs (requires compute resources).
 - MLOps-based model monitoring
 - LLM-powered business insight generation
 
---- --- ---
+---
 
 # Contact
 
