@@ -4,7 +4,6 @@ An end-to-end AI-powered retail analytics platform that combines multiple machin
 
 The project demonstrates the complete machine learning workflow, including data preprocessing, feature engineering, model training, evaluation, visualization, and business decision support. By integrating multiple forecasting techniques into a unified application, the system enables users to compare model performance and make data-driven retail decisions.
 
----
 
 # Overview
 
